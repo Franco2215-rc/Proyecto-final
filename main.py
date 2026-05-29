@@ -28,7 +28,7 @@ while True:
 
             id = int(id)
 
-            # VALIDAR ID REPETIDO
+        
             id_existente = False
 
             for usuario in usuarios:
@@ -46,7 +46,7 @@ while True:
                 print("Error: nombre invalido")
                 continue
 
-            # VALIDAR EMAIL
+            
             email = input("Ingrese su email: ")
 
             if (
@@ -66,7 +66,7 @@ while True:
 
             edad = int(edad)
 
-            # VALIDAR RANGO DE EDAD
+        
             if edad < 1 or edad > 115:
                 print("Error: la edad debe estar entre 1 y 115 años")
                 continue
